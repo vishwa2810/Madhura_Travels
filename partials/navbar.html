@@ -16,7 +16,7 @@
 <body>
     <!-- component -->
 <section class="bg-blue-50">
-	<nav class="relative px-4 py-2 flex justify-between bgBanner rounded-2xl m-2 items-center ">
+	<nav class="relative px-4 py-2 flex justify-between bgBanner rounded-2xl m-2 items-center z-50">
 		<a class="text-3xl h-16 font-bold leading-none" href="/index.html">
 			<img src="/assets/logo/madhura-logo.png" class="h-full" alt="">
 		</a>
@@ -36,29 +36,41 @@
 				</svg>
 			</li>
 			<li class="relative group z-auto">
-				<a class="sml text-white hover:font-semibold hover:text-[#DDA853]" href="/pages/localTariff.html">TARIFF</a>
-				<div class="absolute left-0 mt-2 z-20 hidden sm:group-hover:block font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44">
-					<!-- absolute + z-20 ensures it stacks above other content -->
-					
-					<ul class="py-2 text-sm text-gray-700">
+				<a class="sml text-white hover:font-semibold sm:py-4 hover:text-[#DDA853]">TARIFF</a>
+				<ul  class=" absolute  rounded-xl border-4 border-[#27548A]/10 transform translate-y-2 translate-x-[-65px] bg-blue-100 w-[180px] z[100] divide-y divide-gray-100 sm:group-hover:block hidden ">
 					  <li>
-						<a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
+						<a href="/pages/localTariff.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Local Tariff</a>
 					  </li>
 					  <li>
-						<a href="#" class="block px-4 py-2 hover:bg-gray-100">Settings</a>
+						<a href="/pages/outstationTariff.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Out Station Tariff</a>
 					  </li>
 					  <li>
-						<a href="#" class="block px-4 py-2 hover:bg-gray-100">Earnings</a>
+						<a href="/pages/oneWayTrip.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">One Way Trip</a>
 					  </li>
-					</ul>
-				  </div>
+				</ul>
 			</li>
 			<li class="text-gray-300">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
 				</svg>
 			</li>
-			<li><a class="sml text-white hover:font-semibold hover:text-[#DDA853]" href="/pages/tourPackage.html">TOUR PACKAGES</a></li>
+			<li class="relative group z-auto">
+				<a class="sml text-white hover:font-semibold sm:py-4 hover:text-[#DDA853]">TOUR PACKAGES</a>
+				<ul  class=" absolute p-0 rounded-xl border-4 border-[#27548A]/10 transform translate-y-2 translate-x-[-45px] bg-blue-100 w-[220px] z[100] divide-y divide-gray-100 sm:group-hover:block hidden ">
+					<li>
+					  <a href="/pages/tourPackage.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">One Day Package</a>
+					</li>
+					<li>
+					  <a href="/pages/twoDaysPackage.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Two Day Package</a>
+					</li>
+					<li>
+						<a href="/pages/threeDaysPackage.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Three Day Package</a>
+					  </li>
+					<li>
+					  <a href="/pages/sevenDaysPackage.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">upto Seven Day Package</a>
+					</li>
+			  </ul>
+			</li>
 			<li class="text-gray-300">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />

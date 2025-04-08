@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+a{
+  cursor: pointer;
+}
 
 /* font used in site */
 
@@ -39,6 +42,12 @@
     font-style: normal;
     font-weight: 400;
     font-size:medium;
+}
+
+.fnts{
+  font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .bgBanner{
@@ -186,4 +195,5 @@
     font-weight: 700;
     font-style: italic;
   }
+  
   
