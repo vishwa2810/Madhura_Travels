@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* font used in site */
+
+.hding{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:xx-large;
+    color: #183B4E;
+}
+.subHding{
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size:x-large;
+    color: #DDA853;
+}
+.subTxt{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:medium;
+    color: #6b7280;
+}
+.txt{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:large;
+    color: #1e3a8a;
+}
+
+.fnt{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:medium;
+}
+
+.bgBanner{
+ background-color: #27548A;
+}
+
+
+/* responsive font */
+
+@media screen and (max-width: 768px){
+
+  .hding{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:xx-large;
+    color: #183B4E;
+}
+.subHding{
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size:x-large;
+    color: #DDA853;
+}
+.subTxt{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:medium;
+    color: #6b7280;
+}
+.txt{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:large;
+    color: #1e3a8a;
+}
+
+.fnt{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:medium;
+}
+.sml{
+  font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:x-small;
+}
+
+}
+
+@media screen and (max-width: 428px){
+
+  .hding{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:x-large;
+    color: #183B4E;
+}
+.subHding{
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size:large;
+    color: #DDA853;
+}
+.subTxt{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:medium;
+    color: #6b7280;
+}
+.txt{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:large;
+    color: #1e3a8a;
+}
+
+.fnt{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:medium;
+}
+
+}
+
+
+
+/* ubuntu font styles */
+
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  

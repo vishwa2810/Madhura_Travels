@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- links -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-blue-50">
+  <!-- navbar -->
+  <nav data-include="partials/navbar.html" ></nav>
+
+    <!-- carousel -->
+
+    <section class=" flex justify-center px-2 h-[500px]">
+        <div class="relative w-full overflow-hidden h-full">
+          <!-- Carousel Wrapper -->
+          <div id="carousel" class="flex transition-transform duration-500 ease-in-out h-full">
+            <!-- Slide 1 -->
+            <div class="w-full h-full flex-shrink-0">
+              <img src="/assets/locations/bg1.jpg" class="w-full h-full object-cover rounded-2xl"/>
+            </div>
+            <!-- Slide 2 -->
+            <div class="w-full h-full flex-shrink-0">
+              <img src="https://www.coimbatoretour.com/wp-content/uploads/2023/04/mysore1.jpg" class="w-full h-full object-cover rounded-2xl"/>
+            </div>
+            <!-- Slide 3 -->
+            <div class="w-full h-full flex-shrink-0">
+              <img src="/assets/locations/bg2.jpg" class="w-full h-full object-cover rounded-2xl"/>
+            </div>
+          </div>
+      
+          <!-- Prev/Next Buttons -->
+          <button id="prev" class="absolute left-2 top-[40%] transform -translate-y-1/2 p-2 rounded-full shadow">
+            &#10094;
+          </button>
+          <button id="next" class="absolute right-2 top-[40%] transform -translate-y-1/2 p-2 rounded-full shadow">
+            &#10095;
+          </button>
+        </div>
+   </section>
+
+  <!--  location cards section  -->
+
+   <section>
+    
+      <div class="mx-auto sm:p-5 p-2 sm:p-10 max-w-screen-2xl">
+        <div class="text-center py-4">
+          <h1 class="hding mt-2">Our Destinations </h1>
+          <h2 class="subHding">Explore the most iconic destinations with our curated travel experiences.</h2>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:gap-10 gap-4 py-4">
+
+          <!-- card 1 -->
+          <div class="rounded-2xl overflow-hidden shadow-lg transition duration-300 ease-in-out transform  hover:-translate-y-4">
+            <div class="relative group h-full">
+              <a href="#">
+                <img class="w-full h-full"
+                  src="assets/locations/pexels-julia-volk-5201838.jpg"
+                  alt="Sunset in the mountains">
+                <div
+                  class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                </div>
+              </a>
+              <div class=" rounded-tr-2xl fnt bgBanner absolute bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+                PARIS
+              </div>
+              <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                Contact
+              </div>
+           </div>
+         </div>
+
+          <!-- card 2 -->
+          <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+            <div class="relative group h-full">
+              <a href="#">
+                <img class="w-full h-full"
+                  src="assets/locations/shan-elahi-DDiLYt_F88w-unsplash.jpg"
+                  alt="Sunset in the mountains">
+                <div
+                  class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                </div>
+              </a>
+              <div class=" rounded-tr-2xl fnt bgBanner absolute bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+                PARIS
+              </div>
+              <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                Contact
+              </div>
+           </div>
+         </div>
+
+          <!-- card 3 -->
+          <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+            <div class="relative group h-full">
+              
+                <img class="w-full h-full"
+                  src="assets/locations/pexels-navneet-shanu-202773-672630.jpg"
+                  alt="Sunset in the mountains">
+                <div
+                  class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                </div>
+              
+              <div class=" rounded-tr-2xl fnt bgBanner absolute bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+                PARIS
+              </div>
+              <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                Contact
+              </div>
+           </div>
+         </div>
+
+          <!-- card 4 -->
+          <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+            <div class="relative group h-full">
+              <a href="#">
+                <img class="w-full h-full"
+                  src="assets/locations/pexels-k3ithvision-4134644.jpg"
+                  alt="Sunset in the mountains">
+                <div
+                  class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                </div>
+              </a>
+              <div class=" rounded-tr-2xl fnt bgBanner absolute bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+                PARIS
+              </div>
+              <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                Contact
+              </div>
+           </div>
+          </div>
+
+       </div>
+     </div>
+   </section>
+
+   <!-- Gallery Section  -->
+
+  <section class="">
+    <div class="text-center sm:text-start sm:px-10 py-4">
+      <h1 class="hding mt-2">Our Best Selling Holiday packages</h1>
+      <!-- <h2 class="subHding">Checkout our tours frequently travelled</h2> -->
+    </div>
+    <div class="py-4 px-2 mx-auto max-w-screen-2xl sm:py-10 lg:px-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+          <a href="" class="group relative flex flex-col overflow-hidden rounded-2xl px-4 pb-4 pt-40 flex-grow">
+            <img src="assets/locations/2151297159.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">New Delhi</h3>
+          </a>
+        </div>
+        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+          <a href="" class="group relative flex flex-col overflow-hidden rounded-2xl px-4 pb-4 pt-40 mb-4">
+            <img src="assets/locations/nature-photographer-29ezCWtMtnM-unsplash.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Kerala</h3>
+          </a>
+          <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+            <a href="" class="group relative flex flex-col overflow-hidden rounded-2xl px-4 pb-4 pt-40">
+              <img src="assets/locations/2151297230.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+              <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+              <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Mamallapuram</h3>
+            </a>
+            <a href="" class="group relative flex flex-col overflow-hidden rounded-2xl px-4 pb-4 pt-40">
+              <img src="assets/locations/jayanth-muppaneni-LMj_BZKeGfE-unsplash.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+              <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+              <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Delhi</h3>
+            </a>
+          </div>
+        </div>
+        <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+          <a href="" class="group relative flex flex-col overflow-hidden rounded-2xl px-4 pb-4 pt-40 flex-grow">
+            <img src="assets/locations/pexels-vasu-dev-1837537262-28464755.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Thanjavur</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reasons -->
+  <section class="bg-[#F5EEDC] py-8 md:p-10">
+    <div class="text-center py-4">
+      <h2 class="subHding">Top Reasons</h2>
+      <h1 class="hding mt-2">Why Madura Travel Service (P) Ltd.</h1>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
+
+         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-xl p-6 text-center transition-transform duration-300 hover:scale-110">
+                <div class="flex justify-center mb-4">
+                    <div class="bg-blue-100 rounded-full p-4">
+                        <i class="fas fa-handshake text-blue-900 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="txt mb-2">Oldest & most trusted</h3>
+                <p class="subTxt">The Company was started on January 17th 1986 at Egmore, Chennai, India and is still the most preferred travel company for millions.</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center transition-transform duration-300 hover:scale-110">
+                <div class="flex justify-center mb-4">
+                    <div class="bg-blue-100 rounded-full p-4">
+                        <i class="fas fa-smile text-blue-900 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="txt mb-2">4 Million+ Happy Clients</h3>
+                <p class="subTxt">More than 4 Million happy customers have chosen madura travel service to cater to their travel needs</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center transition-transform duration-300 hover:scale-110">
+                <div class="flex justify-center mb-4">
+                    <div class="bg-blue-100 rounded-full p-4">
+                        <i class="fas fa-shopping-cart text-blue-900 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="txt mb-2">One Stop Shop</h3>
+                <p class="subTxt">With all services including Air Tickets, Bus & Rail, Hotels, Tour Packages, For-Ex, Money Transfers, Passports available</p>
+            </div>
+         </div>
+   </div>
+ </section>
+
+  <!-- car cards section  -->
+
+  <section class=" pb-12 bg-gray-50 md:p-4">
+
+    <div class="mx-auto sm:p-5 p-2 sm:p-10 max-w-screen-2xl  rounded-2xl">
+
+      <div class="text-center py-4 ">
+        <h1 class="hding ">Outstation Round Trip Tariff</h1>
+        <h2 class="subHding mt-2">Just explore the most iconic destinations with our curated travel experiences.</h2>
+     </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:gap-10 gap-4 py-4">
+
+        <!-- card 1 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+          <div class="relative group">
+            <a href="#">
+              <img class="w-full"
+                src="assets/vehicle/14seater-ac.png"
+                alt="Sunset in the mountains">
+              <div
+                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+              </div>
+            </a>
+            <div class=" rounded-tr-2xl fnt bgBanner bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+              14 Seater
+            </div>
+            <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+              Book Now
+            </div>
+         </div>
+       </div>
+
+        <!-- card 2 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+          <div class="relative group">
+            <a href="#">
+              <img class="w-full"
+                src="assets/vehicle/dezire1.png"
+                alt="Sunset in the mountains">
+              <div
+                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+              </div>
+            </a>
+            <div class=" rounded-tr-2xl fnt bgBanner bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+              Dezire
+            </div>
+            <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+              Book Now
+            </div>
+         </div>
+       </div>
+
+        <!-- card 3 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+          <div class="relative group">
+            <a href="#">
+              <img class="w-full"
+                src="assets/vehicle/innova-crysta1.png"
+                alt="Sunset in the mountains">
+              <div
+                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+              </div>
+            </a>
+            <div class=" rounded-tr-2xl fnt bgBanner bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+              Innova
+            </div>
+            <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+              Book Now
+            </div>
+         </div>
+       </div>
+
+        <!-- card 4 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg flex flex-col transition duration-300 ease-in-out transform  hover:-translate-y-4">
+          <div class="relative group">
+            <a href="#">
+              <img class="w-full"
+                src="assets/vehicle/innova1.png"
+                alt="Sunset in the mountains">
+              <div
+                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+              </div>
+            </a>
+            <div class=" rounded-tr-2xl fnt bgBanner bottom-0 left-0  px-4 py-2 text-white mt-3 mr-3   transition duration-500 ease-in-out">
+              Innova
+            </div>
+            <div class=" group-hover:block hidden rounded-2xl text-xs absolute top-0 right-0 bgBanner px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+              Book Now
+            </div>
+         </div>
+       </div>
+
+     </div>
+   </div>
+ </section>
+
+ <section class="pb-12  p-4 md:pb-20 bg-[#F5EEDC] ">
+  <div class="py-4 text-center md:py-8 ">
+    <h1 class="hding ">What Our Clients Say</h1>
+  </div>
+
+  <div class="gap-8 space-y-8 md:columns-2 max-w-7xl mx-auto lg:columns-3">
+
+      <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 transition duration-300 ease-in-out transform hover:scale-105" >
+          <div class="flex gap-4 items-start">
+              <img class="w-12 h-12 rounded-full" src="/assets/locations/person.png" alt="user avatar" width="400" height="400" loading="lazy">
+              <div class="flex-1 flex justify-between items-start">
+                  <div>
+                      <h6 class="txt">Ravi Kumar</h6>
+                  </div>
+                  <a 
+                      class="text-blue-500 hover:text-blue-600 ml-4">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </div>
+          </div>
+          <p class="mt-8 subTxt">The quality of these seat covers is outstanding. They fit perfectly and add a touch of
+              luxury to
+              my car's interior. Highly recommend!</p>
+      </div>
+
+      <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 transition duration-300 ease-in-out transform hover:scale-105">
+          <div class="flex gap-4 items-start">
+              <img class="w-12 h-12 rounded-full" src="/assets/locations/person.png" alt="user avatar" width="200" height="200" loading="lazy">
+              <div class="flex-1 flex justify-between items-start">
+                  <div>
+                      <h6 class="txt">Anjali Sharma</h6>
+                  </div>
+                  <a  class="text-blue-500 hover:text-blue-600 ml-4">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+          </div>
+          <p class="mt-8 subTxt">I love the customizable designs! I was able to choose the perfect color to match my car's
+              interior. The material feels very durable.</p>
+      </div>
+
+      <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 transition duration-300 ease-in-out transform hover:scale-105">
+          <div class="flex gap-4 items-start">
+              <img class="w-12 h-12 rounded-full" src="/assets/locations/person.png" alt="user avatar" width="200" height="200" loading="lazy">
+              <div class="flex-1 flex justify-between items-start">
+                  <div>
+                      <h6 class="txt">Vijay Singh</h6>
+                  </div>
+                  <a 
+                      class="text-blue-500 hover:text-blue-600 ml-4">
+                      <i class="fab fa-facebook"></i>
+                  </a>
+              </div>
+          </div>
+          <p class="mt-8 subTxt">These seat covers are a game-changer for long drives. The added padding and ergonomic design
+              make
+              a huge difference in comfort.</p>
+      </div>
+
+      <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 transition duration-300 ease-in-out transform hover:scale-105">
+          <div class="flex gap-4 items-start">
+              <img class="w-12 h-12 rounded-full" src="/assets/locations/person.png" alt="user avatar" width="200" height="200" loading="lazy">
+              <div class="flex-1 flex justify-between items-start">
+                  <div>
+                      <h6 class="txt">Priya Patel</h6>
+                  </div>
+                  <a 
+                      class="text-blue-500 hover:text-blue-600 ml-4">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </div>
+          </div>
+          <p class="mt-8 subTxt">The installation was super easy, and the instructions were clear. My car looks and feels
+              much more
+              upscale now.</p>
+      </div>
+
+      <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 transition duration-300 ease-in-out transform hover:scale-105">
+          <div class="flex gap-4 items-start">
+              <img class="w-12 h-12 rounded-full" src="/assets/locations/person.png" alt="user avatar" width="200" height="200" loading="lazy">
+              <div class="flex-1 flex justify-between items-start">
+                  <div>
+                      <h6 class="txt">Arjun Mehta</h6>
+                  </div>
+                  <a  class="text-blue-500 hover:text-blue-600 ml-4">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+          </div>
+          <p class="mt-8 subTxt">Great value for money. The seat covers have a premium feel and have significantly improved
+              the
+              look of my car's interior.</p>
+      </div>
+
+      <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10 transition duration-300 ease-in-out transform hover:scale-105">
+          <div class="flex gap-4 items-start">
+              <img class="w-12 h-12 rounded-full" src="/assets/locations/person.png" alt="user avatar" width="400" height="400" loading="lazy">
+              <div class="flex-1 flex justify-between items-start">
+                  <div>
+                      <h6 class="txt">Sneha Rao</h6>
+                  </div>
+                  <a 
+                      class="text-blue-500 hover:text-blue-600 ml-4">
+                      <i class="fab fa-facebook"></i>
+                  </a>
+              </div>
+          </div>
+          <p class="mt-8 subTxt">Absolutely love these seat covers. They're stylish, comfortable, and were really easy to
+              install.
+              My car interior looks brand new!</p>
+      </div>
+
+  </div>
+</section>
+
+<!-- footer -->
+
+<footer data-include="partials/footer.html"></footer>
+
+
+  <script type="module" src="js/main.js"></script>
+  <script src="js/include.js"></script>
+  
+
+  <!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
+
+    if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+ 
+    const close = document.querySelectorAll('.navbar-close');
+    const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+    if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+});
+
+  </script> -->
+  
+  
+</body>
+</html>
