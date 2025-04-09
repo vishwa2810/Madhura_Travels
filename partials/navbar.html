@@ -37,7 +37,7 @@
 			</li>
 			<li class="relative group z-auto">
 				<a class="sml text-white hover:font-semibold sm:py-4 hover:text-[#DDA853]">TARIFF</a>
-				<ul  class=" absolute  rounded-xl border-4 border-[#27548A]/10 transform translate-y-2 translate-x-[-65px] bg-blue-100 w-[180px] z[100] divide-y divide-gray-100 sm:group-hover:block hidden ">
+				<ul class="absolute  rounded-xl border-4 border-[#27548A]/10 transform translate-y-2 translate-x-[-65px] bg-blue-100 w-[180px] z[100] divide-y divide-gray-100 sm:group-hover:block hidden ">
 					  <li>
 						<a href="/pages/localTariff.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Local Tariff</a>
 					  </li>
@@ -56,7 +56,7 @@
 			</li>
 			<li class="relative group z-auto">
 				<a class="sml text-white hover:font-semibold sm:py-4 hover:text-[#DDA853]">TOUR PACKAGES</a>
-				<ul  class=" absolute p-0 rounded-xl border-4 border-[#27548A]/10 transform translate-y-2 translate-x-[-45px] bg-blue-100 w-[220px] z[100] divide-y divide-gray-100 sm:group-hover:block hidden ">
+				<ul  class="absolute p-0 rounded-xl border-4 border-[#27548A]/10 transform translate-y-2 translate-x-[-45px] bg-blue-100 w-[220px] z[100] divide-y divide-gray-100 sm:group-hover:block hidden ">
 					<li>
 					  <a href="/pages/tourPackage.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">One Day Package</a>
 					</li>
@@ -83,7 +83,9 @@
 	</nav>
 	<div class="navbar-menu relative z-50 hidden">
 		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+
+		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-blue-100 border-r overflow-y-auto">
+
 			<div class="flex justify-between bgBanner rounded-2xl px-4 py-2 items-center mb-8">
 				<a class="text-3xl h-16 font-bold leading-none" href="/index.html">
 					<img src="/assets/logo/madhura-logo.png" class="h-full" alt="">
@@ -97,15 +99,26 @@
 			<div>
 				<ul>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 active:bg-[#27548A] active:text-white rounded-xl" href="/index.html">HOME</a>
+						<a class="block p-4 text-sm font-semibold text-[#1e3a8a] active:bg-[#27548A] active:text-white rounded-xl" href="/index.html">HOME</a>
 					</li>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 active:bg-[#27548A] active:text-white rounded-xl" href="/pages/localTariff.html">TARIFF</a>
+						<a  id="tariff" class="block p-4 text-sm font-semibold text-[#1e3a8a] active:bg-[#27548A] active:text-white rounded-xl" >TARIFF</a>
+						<ul  id="tariffDropdown" class=" rounded-xl border-4 border-[#27548A]/10  bg-blue-100  z[100] divide-y divide-gray-100 hidden ">
+							<li>
+							  <a href="/pages/localTariff.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Local Tariff</a>
+							</li>
+							<li>
+							  <a href="/pages/outstationTariff.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">Out Station Tariff</a>
+							</li>
+							<li>
+							  <a href="/pages/oneWayTrip.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">One Way Trip</a>
+							</li>
+					  </ul>
 					</li>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 active:bg-[#27548A] active:text-white rounded-xl" href="/pages/tourPackage.html">TOUR PACKAGES</a>
+						<a id="tour" class="block p-4 text-sm font-semibold text-[#1e3a8a] active:bg-[#27548A] active:text-white rounded-xl">TOUR PACKAGES</a>
 
-						<ul  class="p-0 rounded-xl border-4 border-[#27548A]/10 bg-blue-100   divide-y divide-gray-100  ">
+						<ul id="tourDropdown" class="  p-0 hidden rounded-xl border-4 border-[#27548A]/10 bg-blue-100   divide-y divide-gray-100 ">
 							<li>
 							  <a href="/pages/tourPackage.html" class="block rounded-lg px-4 py-2 text-[#1e3a8a] fnt hover:text-blue-50 hover:bg-[#27548A]">One Day Package</a>
 							</li>
@@ -121,7 +134,7 @@
 					  </ul>
 					</li>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 active:bg-[#27548A] active:text-white rounded-xl" href="/pages/contact.html">CONTACT</a>
+						<a class="block p-4 text-sm font-semibold text-[#1e3a8a] active:bg-[#27548A] active:text-white rounded-xl" href="/pages/contact.html">CONTACT</a>
 					</li>
 				</ul>
 			</div>
@@ -131,6 +144,7 @@
 					<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Dialler</a>
 				</div>
 			</div>
+
 		</nav>
 	</div>
 </section>
