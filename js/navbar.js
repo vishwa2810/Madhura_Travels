@@ -39,5 +39,17 @@
             });
         }
     }
-}) ();
+
+    const tariff = document.querySelector('#tariff');
+    const tours = document.querySelector('#tour');
+
+    tariff.addEventListener('click', function () {
+        document.querySelector('#tariffDropdown').classList.toggle('hidden');
+    });
+    
+    tours.addEventListener('click', function () {
+        document.querySelector('#tourDropdown').classList.toggle('hidden');
+    });
+    
+})  ();
 
