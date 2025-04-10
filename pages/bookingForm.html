@@ -18,95 +18,113 @@
     <!-- navbar -->
   <nav data-include="/partials/navbar.html"></nav>
    <!-- booking form -->
-<section
-   class="  bg-white  text-zinc-900  overflow-hidden"
- >
-   <div class="w-full px-4">
-     <div class="grid grid-cols-12 py-6 lg:gap-8">
-       <div class="col-span-12 lg:col-span-5 lg:order-2 mb-4 lg:mb-0">
-         <div
-           class="bg-center bg-no-repeat bg-cover rounded-2xl min-h-[150px] h-full object-cover"
-           style="background-image:url('/assets/locations/pexels-nirmal-dev-346454482-14179203.jpg')"></div>
-       </div>
-       <div class="col-span-12 lg:col-span-7 border-4 rounded-2xl border-[#27548A]/70">
-         <div class=" bg-[#27548A]/60 shadow-xl  p-6 md:p-10">
-           <h2 class="text-2xl md:text-[45px] text-[#27548A] leading-none font-bold mb-4">Booking Form</h2>
-           <p class="subHding mb-12">We list your menu online, help you process orders.</p>
- 
-           <form class="">
-            <div class="grid grid-cols-1 sm:grid-cols-2  sm:gap-6 gap-y-18 py-4 place-items-center">
-                <div class="mb-4 w-full">
-                    <input
-                      type="text"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Name"
-                    />
-                  </div>
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
+<!-- Updated Booking Form -->
+<section class="bg-white text-zinc-900 overflow-hidden">
+  <div class="w-full px-4">
+    <div class="grid grid-cols-12 py-6 lg:gap-8">
+      <div class="col-span-12 lg:col-span-5 lg:order-2 mb-4 lg:mb-0">
+        <div
+          class="bg-center bg-no-repeat bg-cover rounded-2xl min-h-[150px] h-full object-cover"
+          style="background-image:url('/assets/locations/pexels-nirmal-dev-346454482-14179203.jpg')"></div>
+      </div>
+      <div class="col-span-12 lg:col-span-7">
+        <div class="bg-[#27548A]/60 shadow-xl p-6 md:p-10">
+          <h2 class="text-2xl md:text-[45px] text-[#27548A] leading-none font-bold mb-4">Booking Form</h2>
+          <p class="subHding mb-12">We list your menu online, help you process orders.</p>
 
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
+          <form class="">
+            <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-6 gap-y-18 py-4 place-items-center">
+              <!-- Vehicle Capacity Details -->
+              <div class="mb-4 w-full">
+                <select
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  required>
+                  <option value="" disabled selected>Select Vehicle</option>
+                  <option value="sedan">✈ Sedan – only 4* Members allowed</option>
+                  <option value="suv">✈ SUV – only 6* Members allowed</option>
+                  <option value="premium-suv">✈ Premium SUV – only 7* Members allowed</option>
+                  <option value="tempo-non-ac">✈ Tempo Traveller – Non A/C – only 14* Members allowed</option>
+                  <option value="tempo-ac">✈ Tempo Traveller – A/C – only 14* Members allowed</option>
+                </select>
+              </div>
 
-                  <div class="mb-4 w-full">
-                    <input
-                      type="email"
-                      class="min-h-[48px] leading-[48px] bg-[#F2F6FD]  border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#86b7fe] w-full px-5"
-                      placeholder="Enter Email"
-                    />
-                  </div>
+              <!-- Package Selection -->
+              <div class="mb-4 w-full">
+                <select
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  required>
+                  <option value="" disabled selected>Select Package</option>
+                  <option value="local">Local Trip</option>
+                  <option value="outstation">Outstation Trip</option>
+                  <option value="custom">Custom Package</option>
+                </select>
+              </div>
 
-                </div>
-             
-             <div class="text-end">
-               <button type="submit" class="bg-[#27548A] hover:bg-opacity-90 text-white px-9 py-3 rounded-md mb-4">
-                 Submit
-               </button>
-             </div>
-           </form>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
+              <!-- Name -->
+              <div class="mb-4 w-full">
+                <input
+                  type="text"
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  placeholder="Full Name"
+                  required />
+              </div>
+
+              <!-- Phone Number -->
+              <div class="mb-4 w-full">
+                <input
+                  type="tel"
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  placeholder="Phone"
+                  required />
+              </div>
+
+              <!-- Email Address -->
+              <div class="mb-4 w-full">
+                <input
+                  type="email"
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  placeholder="Enter Email"
+                  required />
+              </div>
+
+              <!-- Number of Travellers -->
+              <div class="mb-4 w-full">
+                <input
+                  type="number"
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  placeholder="Enter Number"
+                  required />
+              </div>
+
+              <!-- Pickup Location -->
+              <div class="mb-4 w-full">
+                <input
+                  type="text"
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  placeholder="Pickup Location"
+                  required />
+              </div>
+
+              <!-- Pickup Date & Time -->
+              <div class="mb-4 w-full">
+                <input
+                  type="datetime-local"
+                  class="min-h-[48px] bg-[#F2F6FD] border border-transparent rounded-xl focus:outline-none focus:border-[#86b7fe] w-full px-5"
+                  required />
+              </div>
+            </div>
+
+            <div class="text-end">
+              <button type="submit" class="bg-[#27548A] hover:bg-opacity-90 text-white px-9 py-3 rounded-md mb-4">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
  
     <!-- footer -->
   <footer data-include="/partials/footer.html"></footer>
